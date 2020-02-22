@@ -1,24 +1,24 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 function Nav(props) {
 
     return (
         <div>
             <h1>Zhen Yong Chen</h1>
-        <ul>
-            <li className="btn btn-link" onClick={() => props.whichPageOn("home")}>
-                Home
+            <ul>
+                <li className="btn btn-link">
+                    <Link to="/" >Home</Link>
+                </li>
+                <li className="btn btn-link">
+                    <Link to="/contact" >Contacts</Link>
             </li>
-            <li className="btn btn-link" onClick={() => props.whichPageOn("contact")}>
-                Contacts
+                <li className="btn btn-link">
+                    <Link to="/project" >Projects</Link>
             </li>
-            <li className="btn btn-link" onClick={() => props.whichPageOn("project")}>
-                Projects
-            </li>
-        </ul>
+            </ul>
         </div>
-  );
+    );
 }
 
 export default Nav;

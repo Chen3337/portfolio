@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Home from "./Home";
 import Contact from "./Contact";
 import Project from "./Project";
+import Footer from "./Footer";
 function Container() {
     return (
         <Router>
@@ -16,6 +17,7 @@ function Container() {
                     <Route component={Home} />
                 </Switch>
             </div>
+            <Footer />
         </Router>
     );
 }

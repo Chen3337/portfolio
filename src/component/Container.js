@@ -16,7 +16,6 @@ function Container() {
                     <Route component={Home} />
                 </Switch>
             </div>
-
         </Router>
     );
 }

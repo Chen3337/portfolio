@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Farm Connect",
+        "github": "https://github.com/MFG-art/The-Boomers.git",
+        "deployed": "https://the-boomer.herokuapp.com/",
+        "image": "/image/Theboomer.PNG"
+    },
+    {
+        "name": "Brew-N-Chew",
+        "github": "https://github.com/jyang108/Brew-N-Chew.git",
+        "deployed": "https://jyang108.github.io/Brew-N-Chew/",
+        "image": "/image/Brew-n-chew.PNG"
+    },
+    {
+        "name": "Employee-search",
+        "github": "https://github.com/Chen3337/Employee-search.git",
+        "deployed": "https://chen3337.github.io/Employee-search",
+        "image": "/image/Employee-search.PNG"
+    },
+    {
+        "name": "Note-taker",
+        "github": "https://github.com/Chen3337/Note-taker.git",
+        "deployed": "https://note-taker123456.herokuapp.com/",
+        "image": "/image/Note-taker.PNG"
+    },
+    {
+        "name": "Burger",
+        "github": "https://github.com/Chen3337/Burger.git",
+        "deployed": "https://eat-da-burger-1.herokuapp.com/",
+        "image": "/image/Burger.PNG"
+    },
+    {
+        "name": "WorkOut",
+        "github": "https://github.com/Chen3337/WorkOut.git",
+        "deployed": "https://workout111.herokuapp.com/",
+        "image": "/image/Workout.PNG"
+    }
+]

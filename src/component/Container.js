@@ -8,7 +8,7 @@ function Container() {
     return (
         <Router>
             <Nav />
-            <div className="container">
+            <div className="container" style={{backgroundColor:"silver", padding:"30px"}}>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/project" component={Project} />

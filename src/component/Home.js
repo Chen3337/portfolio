@@ -1,5 +1,5 @@
 import React from 'react';
-import PDF from "../data/Resume.pdf";
+
 
 function Home() {
 
@@ -13,10 +13,7 @@ function Home() {
         </div>
         <div className="col-md-8" style={{ padding: "15px", textAlign:"left" }}>
           <p>Hello, My name is Zhen Yong Chen and go by the name Danny.</p>
-          <p><a href="https://github.com/Chen3337">Github</a> account where I have all my projects.</p>
-          <p>
-            This is <a href={PDF}>My Resume</a> link.
-        </p>
+          
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import PDF from "../data/Resume.pdf";
 function Nav(props) {
 
     return (
@@ -16,6 +16,9 @@ function Nav(props) {
                 <li className="btn btn-link">
                     <Link to="/project" style={{textDecoration: "none",color:"white"}}>Projects</Link>
             </li>
+            <li className="btn btn-link">
+                    <Link to={PDF} target="_blank" style={{textDecoration: "none",color:"white"}}>Resume</Link>
+                </li>
             </ul>
         </div>
     );

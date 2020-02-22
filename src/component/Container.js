@@ -5,11 +5,12 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Project from "./Project";
 import Footer from "./Footer";
+
 function Container() {
     return (
         <Router>
             <Nav />
-            <div className="container" style={{backgroundColor:"silver", padding:"30px"}}>
+            <div className="container" style={{backgroundColor:"#13a8ed", padding:"30px"}}>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/project" component={Project} />

@@ -9,8 +9,8 @@ function Project() {
       <div className="row">
 
         {Projectdata.map((info) => (
-          <div className="col-md-6">
-            <div style={{backgroundColor:"white", margin:"5px", padding: "5px"}}>
+          <div className="col-md-6" key={info.id}>
+            <div style={{backgroundColor:"white", margin:"5px", padding: "5px"}} >
               <b>{info.name}</b>
               <img src={info.image} alt="preveiw of the site linked" style={{ maxWidth: "100%" }} />
               <p>deployed:<a href={info.deployed}>{info.deployed} </a></p>

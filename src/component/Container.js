@@ -5,10 +5,11 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Project from "./Project";
 import Footer from "./Footer";
-
+import Follower from "./Follower";
 function Container() {
     return (
         <Router>
+            <Follower />
             <Nav />
             <div className="container" style={{backgroundColor:"#13a8ed", padding:"30px"}}>
                 <Switch>

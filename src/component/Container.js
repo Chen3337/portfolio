@@ -13,9 +13,9 @@ function Container() {
             <Nav />
             <div className="container" style={{backgroundColor:"#13a8ed", padding:"30px"}}>
                 <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/project" component={Project} />
-                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/portfolio/" component={Home} />
+                    <Route exact path="/portfolio/project" component={Project} />
+                    <Route exact path="/portfolio/contact" component={Contact} />
                     <Route component={Home} />
                 </Switch>
             </div>

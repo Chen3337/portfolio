@@ -8,13 +8,13 @@ function Nav(props) {
             <h1>Zhen Yong Chen</h1>
             <ul>
                 <li className="btn btn-link">
-                    <Link to="/" style={{textDecoration: "none",color:"white"}}>Home</Link>
+                    <Link to="/portfolio/" style={{textDecoration: "none",color:"white"}}>Home</Link>
                 </li>
                 <li className="btn btn-link">
-                    <Link to="/contact" style={{textDecoration: "none",color:"white"}}>Contacts</Link>
+                    <Link to="/portfolio/contact" style={{textDecoration: "none",color:"white"}}>Contacts</Link>
             </li>
                 <li className="btn btn-link">
-                    <Link to="/project" style={{textDecoration: "none",color:"white"}}>Projects</Link>
+                    <Link to="/portfolio/project" style={{textDecoration: "none",color:"white"}}>Projects</Link>
             </li>
             <li className="btn btn-link">
                     <Link to={PDF} target="_blank" style={{textDecoration: "none",color:"white"}}>Resume</Link>

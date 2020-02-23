@@ -10,7 +10,7 @@ function Follower(){
         });
     }
     return(
-        <img src="/image/emoji.jpeg" alt="" style={{transform: `translate(${coords.x}px, ${coords.y}px)`,position: "fixed", top : "0", left:"0", zIndex: 100, width:"20px"}} />
+        <img src="/portfolio/image/emoji.jpeg" alt="" style={{transform: `translate(${coords.x}px, ${coords.y}px)`,position: "fixed", top : "0", left:"0", zIndex: 100, width:"20px"}} />
         
     );
 }

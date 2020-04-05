@@ -12,8 +12,7 @@ function Home() {
           <img style={{ maxWidth: "100%" }} src="/portfolio/image/Me.jpeg" alt="This is me" />
         </div>
         <div className="col-md-8" style={{ padding: "15px", textAlign:"left" }}>
-          <p>Hello, My name is Zhen Yong Chen and go by the name Danny.</p>
-          
+          <p>Full stack web developer(MERN stack) and was educated at University of Minnesota’s continue education program.</p>
         </div>
       </div>
     </div>

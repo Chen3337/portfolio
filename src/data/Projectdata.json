@@ -36,9 +36,9 @@
     },
     {
         "id":"5",
-        "name": "WorkOut",
-        "github": "https://github.com/Chen3337/WorkOut.git",
-        "deployed": "https://workout111.herokuapp.com/",
-        "image": "/portfolio/image/Workout.PNG"
+        "name": "study buddy",
+        "github": "https://github.com/Chen3337/study-buddy.git",
+        "deployed": "https://study-buddi.herokuapp.com/",
+        "image": "/portfolio/image/studybuddy.PNG"
     }
 ]
